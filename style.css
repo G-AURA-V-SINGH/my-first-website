@@ -1,0 +1,77 @@
+
+/* Basic settings for the entire website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #510c76;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Top navigation bar */
+header {
+    background-color: #14213d;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #fca311;
+}
+
+/* Main welcome section */
+.hero {
+    background-color: #e5eaf4;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #f50000;
+    color: #14213d;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e7410e;
+}
+
+/* Other sections */
+.about, .contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #1100ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
